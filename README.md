@@ -8,13 +8,16 @@ A Claude Code mod that shows which model each subagent runs on (Haiku 5.5, Sonne
 
 ## Install
 
+From a terminal:
+
 ```
-/plugin install agent-model-badge --marketplace jojobird6/agent-model-badge
+claude plugin marketplace add jojobird6/agent-model-badge
+claude plugin install agent-model-badge@local-mods --scope user
 ```
 
-Answer `y` to add the marketplace and pick the user scope. Start a new session afterwards.
+Or at the Claude Code prompt: `/plugin marketplace add jojobird6/agent-model-badge`, then `/plugin install agent-model-badge@local-mods`. Start a new session afterwards.
 
-If you run Claude Code under several config dirs (e.g. `CLAUDE_CONFIG_DIR=~/.claude-work claude`), install once in each.
+If you run Claude Code under several config dirs, run both commands once per dir (e.g. prefixed with `CLAUDE_CONFIG_DIR=~/.claude-work`).
 
 ## Update
 
