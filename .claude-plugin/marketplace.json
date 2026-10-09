@@ -1,0 +1,13 @@
+{
+  "name": "local-mods",
+  "owner": {
+    "name": "Joseph Bertrand"
+  },
+  "plugins": [
+    {
+      "name": "agent-model-badge",
+      "source": "./"
+    }
+  ],
+  "description": "Local Claude Code mods"
+}

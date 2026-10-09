@@ -1,0 +1,9 @@
+{
+  "name": "agent-model-badge",
+  "version": "0.1.0",
+  "description": "Shows which model (Sonnet 5.5, Opus 5.5, Haiku\u2026) each subagent runs on, on its Agent row and in the agent viewer",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Joseph Bertrand"
+  }
+}
